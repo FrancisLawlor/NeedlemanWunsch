@@ -49,6 +49,6 @@ public class Main {
 
     System.out.println("\nScore: \n" + computedMatrix[computedMatrix.length - 1][computedMatrix[0].length - 1] + "\n");
     System.out.println("Best global downmost alignment: ");
-    System.out.println(NeedlemanWunsch.obtainOptimalAlignmentByUpmostOrder(computedMatrix, sequence1, sequence2, matchScore, mismatchScore, indelScore));
+    System.out.println(NeedlemanWunsch.obtainOptimalAlignmentByDownmostOrder(computedMatrix, sequence1, sequence2, matchScore, mismatchScore, indelScore));
   }
 }

@@ -51,7 +51,7 @@ public class NeedlemanWunsch {
    * @param mimatchScore A float representing the score assigned to mismatches.
    * @param indelScore A float represening the score assigned to insertions and deletions.
    */
-  public static OptimalAlignment obtainOptimalAlignmentByUpmostOrder(float similarityMatrix[][],
+  public static OptimalAlignment obtainOptimalAlignmentByDownmostOrder(float similarityMatrix[][],
     String sequence1, String sequence2, double matchScore, double mismatchScore, double indelScore) {
 
     int i = similarityMatrix.length - 1;
