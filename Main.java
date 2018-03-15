@@ -10,7 +10,7 @@ public class Main {
    *
    * The NeedlemanWunsch class' static methods are utilised for first computing
    * the similarity matrix, and then the optimal alignment of the two strings
-   * by upmost order.
+   * by downmost order.
    *
    * @param args
    */
